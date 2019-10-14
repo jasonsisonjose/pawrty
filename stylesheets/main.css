@@ -16,7 +16,7 @@
 
 .main-body {
   margin-left: 160px;
-  display: flex;
+/*   display: flex; this causes the search bar to not expand all the way */
   flex-direction: column;
   justify-content: center;
   align-items: center;

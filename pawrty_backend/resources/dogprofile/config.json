@@ -1,0 +1,61 @@
+{
+	"type": "Collection",
+	"properties": {
+		"OwnerID": {
+			"name": "OwnerID",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "OwnerID",
+			"order": 0
+		},
+		"dogName": {
+			"name": "dogName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "dogName",
+			"order": 1
+		},
+		"Breed": {
+			"name": "Breed",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "Breed",
+			"order": 2
+		},
+		"Aggression": {
+			"name": "Aggression",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "Aggression",
+			"order": 3
+		},
+		"Picture1": {
+			"name": "Picture1",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "Picture1",
+			"order": 4
+		},
+		"Age": {
+			"name": "Age",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "Age",
+			"order": 5
+		},
+		"Notes": {
+			"name": "Notes",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "Notes",
+			"order": 6
+		}
+	}
+}

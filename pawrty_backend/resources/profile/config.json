@@ -1,0 +1,85 @@
+{
+	"type": "Collection",
+	"properties": {
+		"firstName": {
+			"name": "firstName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "firstName",
+			"order": 0
+		},
+		"lName": {
+			"name": "lName",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "lName",
+			"order": 1
+		},
+		"email": {
+			"name": "email",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "email",
+			"order": 2
+		},
+		"password": {
+			"name": "password",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "password",
+			"order": 3
+		},
+		"phoneNumber": {
+			"name": "phoneNumber",
+			"type": "number",
+			"typeLabel": "number",
+			"required": false,
+			"id": "phoneNumber",
+			"order": 4
+		},
+		"friends": {
+			"name": "friends",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "friends",
+			"order": 5
+		},
+		"applications": {
+			"name": "applications",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "applications",
+			"order": 6
+		},
+		"requests": {
+			"name": "requests",
+			"type": "array",
+			"typeLabel": "array",
+			"required": false,
+			"id": "requests",
+			"order": 7
+		},
+		"DogID": {
+			"name": "DogID",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "DogID",
+			"order": 8
+		},
+		"Picture1": {
+			"name": "Picture1",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "Picture1",
+			"order": 9
+		}
+	}
+}

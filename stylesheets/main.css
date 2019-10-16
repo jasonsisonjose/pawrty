@@ -20,12 +20,17 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: #EAEBED;
 }
 
 .main-header {
   background-color: #2FA4E7;
   max-width: 100%;
 
+}
+
+.dog-profile {
+  display: inline-block;
 }
 
 .dog-list {
@@ -35,7 +40,7 @@
   justify-content: center;
 }
 
-.dog-profile {
+.dog-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
@@ -43,6 +48,14 @@
   margin-top: 60px;
   margin-right: 60px;
   justify-content: center;
+  display: block;
+
+  transition: transform 133ms;
+}
+
+.dog-image:hover {
+  transform: scale(1.1);
+
 }
 
 .contact-info {

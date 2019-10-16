@@ -26,8 +26,9 @@
 .main-header {
   background-color: #2FA4E7;
   max-width: 100%;
-
 }
+
+
 
 .dog-profile {
   display: inline-block;
@@ -40,6 +41,7 @@
   justify-content: center;
 }
 
+
 .dog-image {
   width: 150px;
   height: 150px;
@@ -51,6 +53,10 @@
   display: block;
 
   transition: transform 133ms;
+}
+
+.dog-title {
+  font-family: Montserrath;
 }
 
 .dog-image:hover {
@@ -74,9 +80,18 @@
 }
 
 .page-navigation {
+  bottom: 0;
   display: flex;
   justify-content: center;
+/* 
+  margin-top: 500px; */
 }
+
 ul {
   list-style-type: none;
+}
+
+html,body {
+  margin: 0;
+  padding: 0;
 }

@@ -5,7 +5,7 @@
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
   left: 0;
-  background-color: #1682c0;/*#2FA4E7;*/ /* Blue */
+  background-color: #274C77;/*#2FA4E7;*/ /* Blue */
   overflow-x: hidden; /* Disa/ble horizontal scroll */
   padding-top: 20px;
   display: flex;
@@ -14,13 +14,18 @@
   flex-direction: column;
 }
 
+.profile-name {
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
 .main-body {
+  height: 100vh;
   margin-left: 160px;
 /*   display: flex; this causes the search bar to not expand all the way */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #EAEBED;
 }
 
 .main-header {
@@ -28,10 +33,26 @@
   max-width: 100%;
 }
 
+.dog-name {
+  margin-top: -30px;
+  padding-bottom: 30px;
+  color: #E2E8DD;
+}
 
 
 .dog-profile {
   display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  background-color: #828A95;
+  transition: transform 400ms;
+}
+
+.dog-profile:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.05);
 }
 
 .dog-list {
@@ -47,8 +68,8 @@
   height: 150px;
   border-radius: 50%;
   text-decoration: none;
-  margin-top: 60px;
-  margin-right: 60px;
+  /* margin-top: 60px; */
+  margin: 60px;
   justify-content: center;
   display: block;
 
@@ -56,16 +77,15 @@
 }
 
 .dog-title {
-  font-family: Montserrath;
+  padding-top: 10px;
 }
 
 .dog-image:hover {
   transform: scale(1.1);
-
 }
 
 .contact-info {
-  display: flex;
+  display: block;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
@@ -83,7 +103,8 @@
   bottom: 0;
   display: flex;
   justify-content: center;
-/* 
+  align-items: flex-end;
+/*
   margin-top: 500px; */
 }
 
@@ -91,7 +112,12 @@ ul {
   list-style-type: none;
 }
 
+h4 {
+  color: #E2E8DD;
+}
+
 html,body {
   margin: 0;
   padding: 0;
+  background-color: #EAEBED
 }

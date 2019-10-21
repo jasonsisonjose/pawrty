@@ -2918,14 +2918,23 @@ a.btn.disabled, fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #2FA4E7;
-  border-color: #2FA4E7
+  color: #E7ECEF;
+  border-color: #274C77;
+  background-color:#274C77;
+  transition: transform 400ms;
+}
+
+.active {
+  color: #274C77;
+  background-color: #E7ECEF;
+  border-color: #E7ECEF;
 }
 
 .btn-outline-primary:hover {
-  color: #fff;
-  background-color: #2FA4E7;
-  border-color: #2FA4E7
+  color: #274C77;
+  background-color: #E7ECEF;
+  border-color: #E7ECEF;
+
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -7348,9 +7357,11 @@ a.bg-dark:hover, a.bg-dark:focus, button.bg-dark:hover, button.bg-dark:focus {
   flex-direction: row !important
 }
 
+
 .flex-column {
   -webkit-box-orient: vertical !important;
   -webkit-box-direction: normal !important;
+
   -ms-flex-direction: column !important;
   flex-direction: column !important
 }

@@ -1,0 +1,45 @@
+{
+	"type": "Collection",
+	"properties": {
+		"ProfileID": {
+			"name": "ProfileID",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "ProfileID",
+			"order": 0
+		},
+		"ForeignID": {
+			"name": "ForeignID",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "ForeignID",
+			"order": 1
+		},
+		"Friends": {
+			"name": "Friends",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "Friends",
+			"order": 2
+		},
+		"Requested": {
+			"name": "Requested",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "Requested",
+			"order": 3
+		},
+		"Applications": {
+			"name": "Applications",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "Applications",
+			"order": 4
+		}
+	}
+}

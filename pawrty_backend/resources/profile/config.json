@@ -41,37 +41,13 @@
 			"id": "phoneNumber",
 			"order": 4
 		},
-		"friends": {
-			"name": "friends",
-			"type": "array",
-			"typeLabel": "array",
-			"required": false,
-			"id": "friends",
-			"order": 5
-		},
-		"applications": {
-			"name": "applications",
-			"type": "array",
-			"typeLabel": "array",
-			"required": false,
-			"id": "applications",
-			"order": 6
-		},
-		"requests": {
-			"name": "requests",
-			"type": "array",
-			"typeLabel": "array",
-			"required": false,
-			"id": "requests",
-			"order": 7
-		},
 		"DogID": {
 			"name": "DogID",
 			"type": "string",
 			"typeLabel": "string",
 			"required": false,
 			"id": "DogID",
-			"order": 8
+			"order": 5
 		},
 		"Picture1": {
 			"name": "Picture1",
@@ -79,7 +55,7 @@
 			"typeLabel": "string",
 			"required": false,
 			"id": "Picture1",
-			"order": 9
+			"order": 6
 		}
 	}
 }

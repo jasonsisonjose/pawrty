@@ -1,4 +1,19 @@
-var PROFILE_PIC_SELECTOR = '[data-image="thumbnail"]';
+(function(window){
+
+  var PROFILE_PIC_SELECTOR = '[data-image="thumbnail"]';
+  var PROFILES_SELECTOR = "[data-id = \"id\"]";
+
+  var SERVER_URL = "http://localhost:2403/";
+  var App = window.App;
+
+  var DataStore = App.DataStore;
+  var RemoteDataStore = App.RemoteDataStore;
+
+  var URL_EXTENSION = 'profile';
+  var FULL_URL = SERVER_URL + URL_EXTENSION;
+
+
+  var remoteDS = new RemoteDataStore(FULL_URL);
 
 function getThumbnailArray () {
   'use strict';
@@ -24,4 +39,19 @@ function initializeEvents() {
   thumbnails.forEach(addClickHandler);
 }
 
+function populatePage(FULL_URL){
+
+  this.serverUrl = FULL_URL;
+  RemoteDataStore.prototype.getAll = function (cb) {
+    $.get(this.serverUrl, function (serverResponse) {
+      console.log(serverResponse);
+      cb(serverResponse);
+    });
+  };
+}
+
+populatePage(FULL_URL)
 initializeEvents();
+
+
+});

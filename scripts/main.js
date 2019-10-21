@@ -15,6 +15,7 @@
 
   var remoteDS = new RemoteDataStore(FULL_URL);
 
+
 function getThumbnailArray () {
   'use strict';
   var thumbnails = document.querySelectorAll(PROFILE_PIC_SELECTOR);
@@ -39,19 +40,17 @@ function initializeEvents() {
   thumbnails.forEach(addClickHandler);
 }
 
-function populatePage(FULL_URL){
+// function populatePage(FULL_URL){
+//
+//   this.serverUrl = FULL_URL;
+//   RemoteDataStore.prototype.getAll = function (cb) {
+//     $.get(this.serverUrl, function (serverResponse) {
+//       console.log(serverResponse);
+//       cb(serverResponse);
+//     });
+//   };
+// }
 
-  this.serverUrl = FULL_URL;
-  RemoteDataStore.prototype.getAll = function (cb) {
-    $.get(this.serverUrl, function (serverResponse) {
-      console.log(serverResponse);
-      cb(serverResponse);
-    });
-  };
-}
-
-populatePage(FULL_URL)
+// populatePage(FULL_URL);
 initializeEvents();
-
-
-});
+})(window);

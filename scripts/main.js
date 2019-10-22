@@ -1,7 +1,8 @@
 (function(window){
 
   var PROFILE_PIC_SELECTOR = '[data-image="thumbnail"]';
-  var PROFILES_SELECTOR = "[data-id = \"id\"]";
+  var PROFILES_SELECTOR = '[data-id = "id"]';
+  var PROFILE_LIST_SELECTOR = '[data-list="main-dog-list"]';
 
   var SERVER_URL = "http://localhost:2403/";
   var App = window.App;

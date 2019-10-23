@@ -29,8 +29,6 @@ function addClickHandler(thumbnail) {
   thumbnail.addEventListener('click', function(eventTriggered) {
     // this prevents it from loading in a new page
     eventTriggered.preventDefault();
-    var modal = document.getElementById("myModal");
-    modal.style.display= "block";
     console.log("Picture is pressed");
   });
 }

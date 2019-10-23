@@ -1,27 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <title>Pawrty</title>
   <link rel="stylesheet" href="stylesheets/bootstrap.min.css">
   <link rel="stylesheet" href="stylesheets/main.css">
-  <title>Pawrty Application</title>
 </head>
 
 <body>
   <div class="sidebar">
     <img class="profile" src="imgs/doge-square.jpg" alt="profle-picture">
-    <h4 class="profile-name">Doge McGee</h4>
+    <h4 class = "profile-name">Doge McGee</h4>
     <ul class="nav nav-pills flex-column">
-      <button type="button" onclick="location.href='index.html';"class="btn btn-outline-primary">Profile</button>
-      <button type="button" onclick="location.href='index.html';"class="btn btn-outline-primary">Browse</button>
-      <button type="button" onclick="location.href='app.html';" class="btn btn-outline-primary active">Applications</button>
+      <button type="button" onclick="location.href='doge-mcgee.html';"class="btn btn-outline-primary">Profile</button>
+      <button type="button" onclick="location.href='index.html';"class="btn btn-outline-primary active">Browse</button>
+      <button type="button" onclick="location.href='app.html';" class="btn btn-outline-primary">Applications</button>
       <button type="button" onclick="location.href='requests.html';"class="btn btn-outline-primary">Requested</button>
       <button type="button" onclick="location.href='friends.html';"class="btn btn-outline-primary">Friends</button>
       <!-- <li class="nav-item">
-        <a class="nav-link active" href="index.html">Profile</a>
+        <a href="index.html">Profile</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="index.html">Browse</a>
@@ -34,26 +32,16 @@
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="friends.html">Friends</a>
-      </li>
-      <div class="contact-info">
+      </li> -->
+      <!-- <div class="contact-info">
         <h4>Contact Information:</h4>
         <p>Email: pawrty@support.io</p>
       </div> -->
 
   </div>
-<!--  <div class="myJumbotron">
-    <div class="jumbotron">
-      <h1 class="display-3">Pawrty Applications</h1>
-      <p class="lead">"APPLICATIONS GO HERE"</p>
-      <hr class="my-4">
-      <p>Click hear to view dog lovers and set up an apointment with them!</p>
-      <p class="lead">
-        <a class="btn btn-primary btn-lg" href="index.html" role="button">Apply Here</a>
-      </p>
-    </div>
-  </div> -->
 
   <div class="main-body">
+
     <div class="main-header">
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <a class="navbar-brand" href="#">Pawty</a>
@@ -70,8 +58,44 @@
       </nav>
     </div>
     <div class="main-content">
-      <ul class="dog-list">
-        <a href="#">
+      <ul class="dog-list" data-list="main-dog-list">
+        <a href="doge-mcgee.html">
+          <li class="dog-profile" data-id = "ID">
+            <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
+            <h4 class="dog-name">Doge McGee</h4>
+          </li>
+        </a>
+        <a href="fluffy-bro.html">
+          <li class="dog-profile">
+            <img class="dog-image" data-image="thumbnail" src="imgs/good_boi-square.jpg" alt="dog">
+            <h4 class="dog-name">Fluffy Bro</h4>
+          </li>
+        </a>
+        <a href="sir-square-up.html">
+          <li class="dog-profile">
+            <img class="dog-image" data-image="thumbnail" src="imgs/dog3.jpg" alt="dog">
+            <h4 class="dog-name">Sir Square Up</h4>
+          </li>
+        </a>
+        <a href="sir-peanut.html">
+          <li class="dog-profile">
+            <img class="dog-image" data-image="thumbnail" src="imgs/dog4-square.jpg" alt="dog">
+            <h4 class="dog-name">Sir Peanut</h4>
+          </li>
+        </a>
+        <a href="starky-the-spark.html">
+          <li class="dog-profile">
+            <img class="dog-image" data-image="thumbnail" src="imgs/dog5-square.jpg" alt="dog">
+            <h4 class="dog-name">Starky the Spark</h4>
+          </li>
+        </a>
+        <a href="howlin'-howler.html">
+          <li class="dog-profile">
+            <img class="dog-image" data-image="thumbnail" src="imgs/dog6-square.jpg" alt="dog">
+            <h4 class="dog-name">Howlin' Howler</h4>
+          </li>
+        </a>
+        <!-- <a href="#">
           <li class="dog-profile">
             <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
             <h4 class="dog-name">Doge McGee</h4>
@@ -82,44 +106,9 @@
             <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
             <h4 class="dog-name">Doge McGee</h4>
           </li>
-        </a>
-        <a href="#">
-          <li class="dog-profile">
-            <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
-            <h4 class="dog-name">Doge McGee</h4>
-          </li>
-        </a>
-        <a href="#">
-          <li class="dog-profile">
-            <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
-            <h4 class="dog-name">Doge McGee</h4>
-          </li>
-        </a>
-        <a href="#">
-          <li class="dog-profile">
-            <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
-            <h4 class="dog-name">Doge McGee</h4>
-          </li>
-        </a>
-        <a href="#">
-          <li class="dog-profile">
-            <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
-            <h4 class="dog-name">Doge McGee</h4>
-          </li>
-        </a>
-        <a href="#">
-          <li class="dog-profile">
-            <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
-            <h4 class="dog-name">Doge McGee</h4>
-          </li>
-        </a>
-        <a href="#">
-          <li class="dog-profile">
-            <img class="dog-image" data-image="thumbnail" src="imgs/doge-square.jpg" alt="dog">
-            <h4 class="dog-name">Doge McGee</h4>
-          </li>
-        </a>
+        </a> -->
       </ul>
+
       <div class="page-navigation">
         <ul class="pagination pagination-lg">
           <li class="page-item disabled">
@@ -129,25 +118,20 @@
             <a class="page-link" href="#">1</a>
           </li>
           <li class="page-item">
-            <a class="page-link" href="#">2</a>
+            <a class="page-link" href="index-page-2.html">2</a>
           </li>
           <li class="page-item">
-            <a class="page-link" href="#">3</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">4</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">5</a>
-          </li>
-          <li class="page-item">
-            <a class="page-link" href="#">&raquo;</a>
+            <a class="page-link" href="index-page-2.html">&raquo;</a>
           </li>
         </ul>
       </div>
     </div>
-  </div>
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+  <script src="scripts/populate.js" charset="utf-8"></script>
+  <script src="scripts/remotedatastore.js" charset="utf-8"></script>
+  <script src="scripts/main.js" charset="utf-8"></script>
 
 </body>
 
